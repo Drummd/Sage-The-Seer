@@ -5,19 +5,23 @@ const Prophecy = require('./prophecy');
 const UserProphecy = require('./userProphecy');
 
 
-// User.belongsToMany(Prophecy, {
-//     foreignKey: 'user_id'
-// });
+User.belongsToMany(Prophecy, {
+    through: UserProphecy,
+    foreignKey: 'user_id'
+});
+Prophecy.hasMany(User, {
+    through: UserProphecy,
+    //foreignKey: 'user_id'
+    foreignKey: 'prophecy_id'
 
-// Prophecy.hasMany(User, {
-//     through: UserProphecy,
-//     foreignKey: 'user_id'
-// })
+})
 
-// Prophecy.belongsTo(User, {
-//     foreignKey: 'user_id',
-//     onDelete: 'cascade'
-// });
+Prophecy.belongsTo(User, {
+    through: UserProphecy,
+    foreignKey: 'user_id',
+    onDelete: 'cascade'
+}); 
+
 
 
 module.exports = { User, Prophecy, UserProphecy };
