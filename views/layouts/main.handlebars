@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sage The Seer</title>
+</head>
+
+<body>
+    {{{body}}}
+
+    <main>
+        <section>
+            <!-- Title and instructions of app -->
+            <h1>Sage The Seer</h1>
+            <p class="instructions">Answer the following questions...</p>
+            <button id="startBtn">Start</button>
+        </section>
+
+        <!-- container for questions and answers-->
+        <section class="container">
+            <div id="questionContainer" class="hide" style="display: none;">
+                <div id="questionsDiv">Question</div>
+                <div id="answerBtn" class="btn-grid">
+                    <p><button id="btn1" class="btn">Answer 1</button></p>
+                    <p><button id="btn2" class="btn">Answer 2</button></p>
+                    <p><button id="btn3" class="btn">Answer 3</button></p>
+                    <p><button id="btn4" class="btn">Answer 4</button></p>
+                    <hr id="line" style="display: none;" class="mt-4">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="nameInput" style="display: none;">
+            <h2>What is your name and birthday?</h2>
+            <div>
+                <label for="">Enter Your Name</label>
+                <input id="fullName" type="text">
+                <label for="">Enter Birthday</label>
+                <input id="date" type="date">
+                <button id="nextBtn" type="submit">Next</button>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

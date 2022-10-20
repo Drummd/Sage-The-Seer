@@ -1,4 +1,5 @@
 
+
 module.exports =[
     {
         "prophecy_str": "You did not come this far to only come this far. The past withhold truth and creates a pressure from within.. release and pursue truth",
@@ -167,4 +168,6 @@ module.exports =[
 
 
 ];
+
+
 

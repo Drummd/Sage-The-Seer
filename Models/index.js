@@ -1,4 +1,5 @@
 
+
 const User = require('./user');
 const Prophecy = require('./prophecy');
 const UserProphecy = require('./userProphecy');
@@ -22,4 +23,7 @@ Prophecy.belongsTo(User, {
 }); 
 
 
-module.exports = {User, Prophecy, UserProphecy};
+
+module.exports = { User, Prophecy, UserProphecy };
+
+
