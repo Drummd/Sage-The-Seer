@@ -10,14 +10,40 @@
 </head>
 
 <body>
+    <header class="header"> <nav class=“navbar navbar-expand-lg navbar-light bg-light”>
+        <!-- <a class=“navbar-brand” href=“#”>Navbar</a>
+        <button class=“navbar-toggler” type=“button” data-toggle=“collapse” data-target=“#navbarNav” aria-controls=“navbarNav” aria-expanded=“false” aria-label=“Toggle navigation”>
+          <span class=“navbar-toggler-icon”></span>
+        </button> -->
+        <div class=“collapse navbar-collapse” id=“navbarNav”>
+          <ul style="list-style-type: none;" class=“navbar-nav”>
+            <li class=“nav-item active”>
+              <a class=“nav-link” href=“/”>Home <span class=“sr-only”></span></a>
+            </li>
+            <li class=“nav-item”>
+              <a class=“nav-link” href=“/dashboard”>Dashboard</a>
+            </li>
+            <li class=“nav-item”>
+              <a class=“nav-link” href=“/login”>Login</a>
+            </li>
+            <li class=“nav-item”>
+              <a class=“nav-link” href=“/logout”>Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav></header>
+
 
     <main>
+       
         <section>
             <!-- Title and instructions of app -->
-            <h1>Sage The Seer</h1>
-            <p class="instructions">Answer the following questions...</p>
+            <h1 id="title">Sage The Seer</h1>
+            <p class="instructions">For centuries, people have turned to Sage The Seer for guidance. Sage see things clearly from a higher perspective to provide answers and sound advice... But first you must answer the questions for Sage to find your prohecy! </p>
             <button id="startBtn">Start</button>
         </section>
+
+    
 
         <!-- container for questions and answers-->
         <section class="container">

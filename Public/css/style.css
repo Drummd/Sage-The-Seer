@@ -1,5 +1,43 @@
+/* added a background image */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/tumblr_5c22ba96e28c47280882789b99d0b0f5_1124d188_1280.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-family: fantasy;
+    }
+
+    h1 {
+        color: gold;
+    }
+
+    #title {
+        padding-top: 100px;
+        font-size: 35px;
+    }
+
+    .instructions {
+        font-size: 25px;
+        font-weight: bolder;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        color: aliceblue;
+        float: left;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header nav ul li {
+        display: inline-block;
+    }
+
+    a {
+        color: cyan;
     }
     /* Full width input fields */
     input[type=text], input[type=password] {
@@ -12,13 +50,13 @@ body {
     }
     /* Set a style for all buttons */
     button {
-    background-color: #4CAF50;
+    background-color: purple;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    /* width: 100%; */
     }
     button:hover {
     opacity: 0.7;
