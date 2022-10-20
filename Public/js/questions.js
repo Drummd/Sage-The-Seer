@@ -49,22 +49,6 @@ function displayQuestion() {
 
    }
 }    
-    
-    
-    //click event when user click on next
-    //grab value in the input field(optional)
-    //if end of question(hint: check the length of array){
-    //loop through questions[index].emotions
-    //For each emotion, create a button and display the emotion on that button
-    //inside the for loop. create a click event for the choice they made
-    //button.onclick = phophecyChoice;
-    //else {
-    //index++
-    //displayQuestion()
-
-
-
-
 async function prophecyChoice(event) {
     const prophecyChoice = event.target.innerHTML;
 
@@ -90,6 +74,8 @@ async function prophecyChoice(event) {
 
 
 }
+
+function 
 
 //function to display questions
 //click event for the last question, trigger prophecyChoice func
