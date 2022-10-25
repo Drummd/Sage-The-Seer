@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Prophecy } = require('../Models');
+const { Prophecy } = require('../models');
 router.get('/', async (req, res) => {
     res.render('login', {
         

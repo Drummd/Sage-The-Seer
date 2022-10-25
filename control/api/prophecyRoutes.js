@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 const withAuth = require('../../utils/auth');
-const { Prophecy } = require('../../Models');
+const { Prophecy } = require('../../models');
 
 router.post('/', withAuth, async (req, res) => {
     try {
