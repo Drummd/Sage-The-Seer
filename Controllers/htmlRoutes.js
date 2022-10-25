@@ -24,7 +24,6 @@ router.get('/:emotions', async (req, res) => {
 
         const randomProphecy = prophecies[Math.floor(Math.random() * prophecies.length)];
         console.log(randomProphecy)
-        //res.json(randomProphecy);
         res.render('prophecy', {randomProphecy})
     } catch (err) {
         console.log(err);

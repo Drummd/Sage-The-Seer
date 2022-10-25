@@ -5,6 +5,6 @@ const prophecyRoutes = require('./prophecyRoutes');
 
 router.use('/users', userRoutes);
 
-router.use('/prophecy', prophecyRoutes);
+router.use('./prophecy', prophecyRoutes);
 
 module.exports = router;
